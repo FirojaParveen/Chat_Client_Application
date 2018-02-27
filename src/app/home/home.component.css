@@ -1,0 +1,13 @@
+
+.login-box
+{
+    width: 320px;
+    height: 320px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    top: 30%;
+    left: 40%;
+    position: absolute;
+    transform: translate(-505, -50%);
+    box-sizing: border-box;
+}

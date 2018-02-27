@@ -1,0 +1,30 @@
+
+<div class="container">
+  <form #form="ngForm" novalidate >
+   <div class ="form-group">
+  <div class ="login-box"> 
+  
+  <br> <br>  <br> <br>
+ <div align ="center">
+<label for="userName" > Enter your name:</label>
+       
+ <br>
+
+<input type="text"  id="userName"   name="userName" placeholder="Enter username" [(ngModel)]="model.username"/>
+
+</div>
+
+<br>
+
+<div align ="center">
+ <button class="btn btn-primary" value ="submit"  (click)="onSubmit(model)">Submit</button>
+</div>
+
+  
+  </div>
+ </div>
+  </form>
+  Model: {{ model | json }}
+  <br>
+  Angular: {{ form.value | json }}
+      </div>

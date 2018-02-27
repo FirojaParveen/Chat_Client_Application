@@ -12,7 +12,7 @@ export class HttpService {
     }
     GetPost()
     {
-        return this.http.get(' http://jsonplaceholder.typicode.com/posts').map(result => result.json());
+        return this.http.get(' https://chat.promactinfo.com/api/login').map(result => result.json());
     }
    /* GetPostAsPerId(id: any)
     {
